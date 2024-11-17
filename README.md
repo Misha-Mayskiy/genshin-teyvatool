@@ -1,10 +1,10 @@
-TeyvaTool
+ArteFactor
 ==========
 
 Description
 ----------
 
-TeyvaTool is a multifunctional tool for players of Genshin Impact. The application includes three main modules:
+ArteFactor is a multifunctional tool for players of Genshin Impact. The application includes three main modules:
 
 Critical Mass Calculator for Artifacts: Helps optimize artifact stats by calculating critical chance and critical damage.
 
