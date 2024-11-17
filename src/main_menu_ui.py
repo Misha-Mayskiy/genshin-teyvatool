@@ -2,6 +2,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
+
 class Ui_MainMenuWindow(object):
     def setupUi(self, MainMenuWindow):
         MainMenuWindow.setObjectName("MainMenuWindow")

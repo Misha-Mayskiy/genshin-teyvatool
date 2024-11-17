@@ -1,0 +1,184 @@
+[
+  {
+    "name": "Diluc",
+    "role": "DPS",
+    "element": "Pyro",
+    "weapon": "Claymore",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Barbara",
+    "role": "Healer",
+    "element": "Hydro",
+    "weapon": "Catalyst",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Venti",
+    "role": "Support",
+    "element": "Anemo",
+    "weapon": "Bow",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Zhongli",
+    "role": "Support",
+    "element": "Geo",
+    "weapon": "Polearm",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Xiangling",
+    "role": "Sub-DPS",
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Fischl",
+    "role": "Sub-DPS",
+    "element": "Electro",
+    "weapon": "Bow",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Keqing",
+    "role": "DPS",
+    "element": "Electro",
+    "weapon": "Sword",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Jean",
+    "role": "DPS",
+    "element": "Anemo",
+    "weapon": "Sword",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Mona",
+    "role": "Sub-DPS",
+    "element": "Hydro",
+    "weapon": "Catalyst",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Qiqi",
+    "role": "Healer",
+    "element": "Cryo",
+    "weapon": "Sword",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Sucrose",
+    "role": "Support",
+    "element": "Anemo",
+    "weapon": "Catalyst",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Xingqiu",
+    "role": "Sub-DPS",
+    "element": "Hydro",
+    "weapon": "Sword",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Bennett",
+    "role": "Support",
+    "element": "Pyro",
+    "weapon": "Sword",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Noelle",
+    "role": "Healer",
+    "element": "Geo",
+    "weapon": "Claymore",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Amber",
+    "role": "Sub-DPS",
+    "element": "Pyro",
+    "weapon": "Bow",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Lisa",
+    "role": "Support",
+    "element": "Electro",
+    "weapon": "Catalyst",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Klee",
+    "role": "DPS",
+    "element": "Pyro",
+    "weapon": "Catalyst",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Razor",
+    "role": "DPS",
+    "element": "Electro",
+    "weapon": "Claymore",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Rosaria",
+    "role": "Sub-DPS",
+    "element": "Cryo",
+    "weapon": "Polearm",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Tartaglia",
+    "role": "DPS",
+    "element": "Hydro",
+    "weapon": "Bow",
+    "nation": "Snezhnaya"
+  },
+  {
+    "name": "Kaeya",
+    "role": "Support",
+    "element": "Cryo",
+    "weapon": "Sword",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Diluc",
+    "role": "DPS",
+    "element": "Pyro",
+    "weapon": "Claymore",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Sayu",
+    "role": "Healer",
+    "element": "Anemo",
+    "weapon": "Claymore",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Thoma",
+    "role": "Support",
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Itto",
+    "role": "DPS",
+    "element": "Geo",
+    "weapon": "Claymore",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Yoimiya",
+    "role": "DPS",
+    "element": "Pyro",
+    "weapon": "Bow",
+    "nation": "Inazuma"
+  }
+]

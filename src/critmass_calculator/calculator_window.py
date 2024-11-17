@@ -1,7 +1,9 @@
+# calculator_window.py
+
 import sys
 from PyQt5.QtWidgets import QMainWindow, QApplication, QMessageBox
 from PyQt5 import QtCore
-from .calculator_ui import Ui_CalculatorWindow  # Импортируем сгенерированный класс
+from .calculator_ui import Ui_CalculatorWindow  # Import the generated class
 
 
 class CalculatorWindow(QMainWindow, Ui_CalculatorWindow):
@@ -15,32 +17,33 @@ class CalculatorWindow(QMainWindow, Ui_CalculatorWindow):
             crit_damage = float(self.critDamageInput.text().replace(',', '.'))
             crit_chance = float(self.critChanceInput.text().replace(',', '.'))
         except ValueError:
-            QMessageBox.warning(self, "Ошибка", "Пожалуйста, введите корректные числовые значения.")
+            QMessageBox.warning(self, "Error", "Please enter valid numerical values.")
             return
 
-        # Вычисление крит.массы по формуле крит.масса = крит.шанс * 2 + крит.урон
+        # Calculate critical mass using the formula: critical_mass = crit_chance * 2 + crit_damage
         crit_mass = crit_chance * 2 + crit_damage
         crit_mass = round(crit_mass, 1)
-        self.resultLabel.setText(f"Крит масса: {crit_mass}")
+        self.resultLabel.setText(f"Critical Mass: {crit_mass}")
 
-        # Оценка количества крит.массы
+        # Evaluate the amount of critical mass
         if crit_mass < 50.0:
-            evaluation = "Вам следует сменить или улучшить артефакты"
+            evaluation = "You should replace or upgrade your artifacts."
         elif 50.0 <= crit_mass < 90.0:
-            evaluation = "Хорошая крит.масса для саппортов"
+            evaluation = "Good critical mass for supports."
         elif 90.0 <= crit_mass < 130.0:
-            evaluation = "Отличная крит.масса для саб-дд"
+            evaluation = "Excellent critical mass for sub-DPS."
         elif 130.0 <= crit_mass < 500.0:
-            evaluation = "У вас идеальные артефакты!"
+            evaluation = "You have perfect artifacts!"
         else:
-            evaluation = "Вы уверены что не ошиблись в значениях?)"
+            evaluation = "Are you sure you didn't make a mistake with the values?)"
 
-        self.evaluationLabel.setText(f"Оценка: {evaluation}")
+        self.evaluationLabel.setText(f"Evaluation: {evaluation}")
 
-        # Дополнительные проверки с советами по улучшению
+        # Additional checks with improvement tips
         if crit_chance > 100:
-            QMessageBox.information(self, "Информация", "Крит.шанс больше 100%, увеличьте перевес в сторону крит.урона.")
+            QMessageBox.information(self, "Information",
+                                    "Critical Chance is over 100%, consider shifting towards Critical Damage.")
 
-        # Проверка соотношения крит.шанса и крит.урона 1 к 2 для баланса
-        if abs(crit_chance - (crit_damage / 2)) > 20:  # Допустимое отклонение
-            QMessageBox.information(self, "Информация", "Оптимальное соотношение крит.шанса и крит.урона: 1 к 2.")
+        # Check the ratio of Critical Chance to Critical Damage (1:2 for balance)
+        if abs(crit_chance - (crit_damage / 2)) > 20:  # Allowable deviation
+            QMessageBox.information(self, "Information", "Optimal ratio of Critical Chance to Critical Damage is 1:2.")

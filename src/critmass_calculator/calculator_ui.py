@@ -2,6 +2,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
+
 class Ui_CalculatorWindow(object):
     def setupUi(self, CalculatorWindow):
         CalculatorWindow.setObjectName("CalculatorWindow")
