@@ -62,6 +62,7 @@ class Ui_CalculatorWindow(object):
         self.calculateButton = QtWidgets.QPushButton(self.centralwidget)
         self.calculateButton.setGeometry(QtCore.QRect(150, 180, 100, 40))
         font = QtGui.QFont()
+        font.setBold(True)
         font.setPointSize(10)
         self.calculateButton.setFont(font)
         self.calculateButton.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))

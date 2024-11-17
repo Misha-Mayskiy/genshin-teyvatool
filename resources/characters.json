@@ -4,181 +4,439 @@
     "role": "DPS",
     "element": "Pyro",
     "weapon": "Claymore",
-    "nation": "Mondstadt"
+    "nation": "Mondstadt",
+    "icon": "icons/diluc.png"
   },
   {
     "name": "Barbara",
     "role": "Healer",
     "element": "Hydro",
     "weapon": "Catalyst",
-    "nation": "Mondstadt"
+    "nation": "Mondstadt",
+    "icon": "icons/barbara.png"
   },
   {
     "name": "Venti",
     "role": "Support",
     "element": "Anemo",
     "weapon": "Bow",
-    "nation": "Mondstadt"
+    "nation": "Mondstadt",
+    "icon": "icons/venti.png"
   },
   {
     "name": "Zhongli",
     "role": "Support",
     "element": "Geo",
     "weapon": "Polearm",
-    "nation": "Liyue"
+    "nation": "Liyue",
+    "icon": "icons/zhongli.png"
   },
   {
     "name": "Xiangling",
     "role": "Sub-DPS",
     "element": "Pyro",
     "weapon": "Polearm",
-    "nation": "Liyue"
+    "nation": "Liyue",
+    "icon": "icons/xiangling.png"
   },
   {
     "name": "Fischl",
     "role": "Sub-DPS",
     "element": "Electro",
     "weapon": "Bow",
-    "nation": "Mondstadt"
+    "nation": "Mondstadt",
+    "icon": "icons/fischl.png"
   },
   {
     "name": "Keqing",
     "role": "DPS",
     "element": "Electro",
     "weapon": "Sword",
-    "nation": "Liyue"
+    "nation": "Liyue",
+    "icon": "icons/keqing.png"
   },
   {
     "name": "Jean",
-    "role": "DPS",
+    "role": "Support",
     "element": "Anemo",
     "weapon": "Sword",
-    "nation": "Mondstadt"
+    "nation": "Mondstadt",
+    "icon": "icons/jean.png"
   },
   {
     "name": "Mona",
     "role": "Sub-DPS",
     "element": "Hydro",
     "weapon": "Catalyst",
-    "nation": "Mondstadt"
+    "nation": "Mondstadt",
+    "icon": "icons/mona.png"
   },
   {
     "name": "Qiqi",
     "role": "Healer",
     "element": "Cryo",
     "weapon": "Sword",
-    "nation": "Liyue"
+    "nation": "Liyue",
+    "icon": "icons/qiqi.png"
   },
   {
     "name": "Sucrose",
     "role": "Support",
     "element": "Anemo",
     "weapon": "Catalyst",
-    "nation": "Mondstadt"
+    "nation": "Mondstadt",
+    "icon": "icons/sucrose.png"
   },
   {
     "name": "Xingqiu",
     "role": "Sub-DPS",
     "element": "Hydro",
     "weapon": "Sword",
-    "nation": "Liyue"
+    "nation": "Liyue",
+    "icon": "icons/xingqiu.png"
   },
   {
     "name": "Bennett",
     "role": "Support",
     "element": "Pyro",
     "weapon": "Sword",
-    "nation": "Mondstadt"
+    "nation": "Mondstadt",
+    "icon": "icons/bennett.png"
   },
   {
     "name": "Noelle",
-    "role": "Healer",
+    "role": "Support",
     "element": "Geo",
     "weapon": "Claymore",
-    "nation": "Mondstadt"
+    "nation": "Mondstadt",
+    "icon": "icons/noelle.png"
   },
   {
     "name": "Amber",
     "role": "Sub-DPS",
     "element": "Pyro",
     "weapon": "Bow",
-    "nation": "Mondstadt"
+    "nation": "Mondstadt",
+    "icon": "icons/amber.png"
   },
   {
     "name": "Lisa",
-    "role": "Support",
+    "role": "Sub-DPS",
     "element": "Electro",
     "weapon": "Catalyst",
-    "nation": "Mondstadt"
+    "nation": "Mondstadt",
+    "icon": "icons/lisa.png"
   },
   {
     "name": "Klee",
     "role": "DPS",
     "element": "Pyro",
     "weapon": "Catalyst",
-    "nation": "Mondstadt"
+    "nation": "Mondstadt",
+    "icon": "icons/klee.png"
   },
   {
     "name": "Razor",
     "role": "DPS",
     "element": "Electro",
     "weapon": "Claymore",
-    "nation": "Mondstadt"
+    "nation": "Mondstadt",
+    "icon": "icons/razor.png"
   },
   {
     "name": "Rosaria",
     "role": "Sub-DPS",
     "element": "Cryo",
     "weapon": "Polearm",
-    "nation": "Mondstadt"
+    "nation": "Mondstadt",
+    "icon": "icons/rosaria.png"
   },
   {
     "name": "Tartaglia",
     "role": "DPS",
     "element": "Hydro",
     "weapon": "Bow",
-    "nation": "Snezhnaya"
+    "nation": "Snezhnaya",
+    "icon": "icons/tartaglia.png"
   },
   {
     "name": "Kaeya",
-    "role": "Support",
+    "role": "Sub-DPS",
     "element": "Cryo",
     "weapon": "Sword",
-    "nation": "Mondstadt"
-  },
-  {
-    "name": "Diluc",
-    "role": "DPS",
-    "element": "Pyro",
-    "weapon": "Claymore",
-    "nation": "Mondstadt"
+    "nation": "Mondstadt",
+    "icon": "icons/kaeya.png"
   },
   {
     "name": "Sayu",
     "role": "Healer",
     "element": "Anemo",
     "weapon": "Claymore",
-    "nation": "Inazuma"
+    "nation": "Inazuma",
+    "icon": "icons/sayu.png"
   },
   {
     "name": "Thoma",
     "role": "Support",
     "element": "Pyro",
     "weapon": "Polearm",
-    "nation": "Inazuma"
+    "nation": "Inazuma",
+    "icon": "icons/thoma.png"
   },
   {
     "name": "Itto",
     "role": "DPS",
     "element": "Geo",
     "weapon": "Claymore",
-    "nation": "Inazuma"
+    "nation": "Inazuma",
+    "icon": "icons/itto.png"
   },
   {
     "name": "Yoimiya",
     "role": "DPS",
     "element": "Pyro",
     "weapon": "Bow",
-    "nation": "Inazuma"
+    "nation": "Inazuma",
+    "icon": "icons/yoimiya.png"
+  },
+  {
+    "name": "Raiden",
+    "role": "DPS",
+    "element": "Electro",
+    "weapon": "Polearm",
+    "nation": "Inazuma",
+    "icon": "icons/raiden_shogun.png"
+  },
+  {
+    "name": "Hu Tao",
+    "role": "DPS",
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "nation": "Liyue",
+    "icon": "icons/hu_tao.png"
+  },
+  {
+    "name": "Albedo",
+    "role": "Sub-DPS",
+    "element": "Geo",
+    "weapon": "Sword",
+    "nation": "Mondstadt",
+    "icon": "icons/albedo.png"
+  },
+  {
+    "name": "Ganyu",
+    "role": "DPS",
+    "element": "Cryo",
+    "weapon": "Bow",
+    "nation": "Liyue",
+    "icon": "icons/ganyu.png"
+  },
+  {
+    "name": "Xiao",
+    "role": "DPS",
+    "element": "Anemo",
+    "weapon": "Polearm",
+    "nation": "Liyue",
+    "icon": "icons/xiao.png"
+  },
+  {
+    "name": "Eula",
+    "role": "DPS",
+    "element": "Cryo",
+    "weapon": "Claymore",
+    "nation": "Mondstadt",
+    "icon": "icons/eula.png"
+  },
+  {
+    "name": "Kazuha",
+    "role": "Support",
+    "element": "Anemo",
+    "weapon": "Sword",
+    "nation": "Inazuma",
+    "icon": "icons/kazuha.png"
+  },
+  {
+    "name": "Yae Miko",
+    "role": "Sub-DPS",
+    "element": "Electro",
+    "weapon": "Catalyst",
+    "nation": "Inazuma",
+    "icon": "icons/yae_miko.png"
+  },
+  {
+    "name": "Shenhe",
+    "role": "Sub-DPS",
+    "element": "Cryo",
+    "weapon": "Polearm",
+    "nation": "Liyue",
+    "icon": "icons/shenhe.png"
+  },
+  {
+    "name": "Ayaka",
+    "role": "DPS",
+    "element": "Cryo",
+    "weapon": "Sword",
+    "nation": "Inazuma",
+    "icon": "icons/ayaka.png"
+  },
+  {
+    "name": "Yelan",
+    "role": "Sub-DPS",
+    "element": "Hydro",
+    "weapon": "Bow",
+    "nation": "Snezhnaya",
+    "icon": "icons/yelan.png"
+  },
+  {
+    "name": "Ningguang",
+    "role": "Support",
+    "element": "Geo",
+    "weapon": "Catalyst",
+    "nation": "Liyue",
+    "icon": "icons/ningguang.png"
+  },
+  {
+    "name": "Diona",
+    "role": "Healer",
+    "element": "Cryo",
+    "weapon": "Bow",
+    "nation": "Mondstadt",
+    "icon": "icons/diona.png"
+  },
+  {
+    "name": "Gorou",
+    "role": "Support",
+    "element": "Geo",
+    "weapon": "Bow",
+    "nation": "Inazuma",
+    "icon": "icons/gorou.png"
+  },
+  {
+    "name": "Nahida",
+    "role": "Support",
+    "element": "Dendro",
+    "weapon": "Catalyst",
+    "nation": "Sumeru",
+    "icon": "icons/nahida.png"
+  },
+  {
+    "name": "Nilou",
+    "role": "DPS",
+    "element": "Hydro",
+    "weapon": "Sword",
+    "nation": "Sumeru",
+    "icon": "icons/nilou.png"
+  },
+  {
+    "name": "Candace",
+    "role": "Support",
+    "element": "Hydro",
+    "weapon": "Polearm",
+    "nation": "Sumeru",
+    "icon": "icons/candace.png"
+  },
+  {
+    "name": "Collei",
+    "role": "Sub-DPS",
+    "element": "Dendro",
+    "weapon": "Bow",
+    "nation": "Sumeru",
+    "icon": "icons/collei.png"
+  },
+  {
+    "name": "Wanderer",
+    "role": "DPS",
+    "element": "Anemo",
+    "weapon": "Catalyst",
+    "nation": "Sumeru",
+    "icon": "icons/wanderer.png"
+  },
+  {
+    "name": "Tighnari",
+    "role": "Sub-DPS",
+    "element": "Dendro",
+    "weapon": "Bow",
+    "nation": "Sumeru",
+    "icon": "icons/tighnari.png"
+  },
+  {
+    "name": "Cyno",
+    "role": "DPS",
+    "element": "Electro",
+    "weapon": "Polearm",
+    "nation": "Sumeru",
+    "icon": "icons/cyno.png"
+  },
+  {
+    "name": "Dori",
+    "role": "Sub-DPS",
+    "element": "Electro",
+    "weapon": "Bow",
+    "nation": "Sumeru",
+    "icon": "icons/dori.png"
+  },
+  {
+    "name": "Faruzan",
+    "role": "Sub-DPS",
+    "element": "Anemo",
+    "weapon": "Bow",
+    "nation": "Sumeru",
+    "icon": "icons/faruzan.png"
+  },
+  {
+    "name": "Kamisato Ayato",
+    "role": "DPS",
+    "element": "Hydro",
+    "weapon": "Sword",
+    "nation": "Inazuma",
+    "icon": "icons/kamisato_ayato.png"
+  },
+  {
+    "name": "Kujou Sara",
+    "role": "Support",
+    "element": "Electro",
+    "weapon": "Polearm",
+    "nation": "Inazuma",
+    "icon": "icons/kujou_sara.png"
+  },
+  {
+    "name": "Yun Jin",
+    "role": "Support",
+    "element": "Geo",
+    "weapon": "Polearm",
+    "nation": "Liyue",
+    "icon": "icons/yun_jin.png"
+  },
+  {
+    "name": "Neuvillette",
+    "role": "DPS",
+    "element": "Hydro",
+    "weapon": "Catalyst",
+    "nation": "Fontaine",
+    "icon": "icons/neuvillette.png"
+  },
+  {
+    "name": "Baizhu",
+    "role": "Support",
+    "element": "Dendro",
+    "weapon": "Sword",
+    "nation": "Liyue",
+    "icon": "icons/baizhu.png"
+  },
+  {
+    "name": "Layla",
+    "role": "Healer",
+    "element": "Cryo",
+    "weapon": "Catalyst",
+    "nation": "Mondstadt",
+    "icon": "icons/layla.png"
+  },
+  {
+    "name": "Hutao",
+    "role": "DPS",
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "nation": "Liyue",
+    "icon": "icons/hutao.png"
   }
 ]

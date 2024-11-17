@@ -35,9 +35,9 @@ class CalculatorWindow(QMainWindow, Ui_CalculatorWindow):
         elif 130.0 <= crit_mass < 500.0:
             evaluation = "You have perfect artifacts!"
         else:
-            evaluation = "Are you sure you didn't make a mistake with the values?)"
+            evaluation = "Are you sure you didn't make a mistake?)"
 
-        self.evaluationLabel.setText(f"Evaluation: {evaluation}")
+        self.evaluationLabel.setText(f"{evaluation}")
 
         # Additional checks with improvement tips
         if crit_chance > 100:
@@ -45,5 +45,5 @@ class CalculatorWindow(QMainWindow, Ui_CalculatorWindow):
                                     "Critical Chance is over 100%, consider shifting towards Critical Damage.")
 
         # Check the ratio of Critical Chance to Critical Damage (1:2 for balance)
-        if abs(crit_chance - (crit_damage / 2)) > 20:  # Allowable deviation
+        if abs(crit_chance - (crit_damage / 2)) > 15 or (crit_damage / 2 < 100 and crit_chance < 70):  # Allowable deviation
             QMessageBox.information(self, "Information", "Optimal ratio of Critical Chance to Critical Damage is 1:2.")
