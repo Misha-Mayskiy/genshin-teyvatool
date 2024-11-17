@@ -8,7 +8,7 @@ class Ui_MainMenuWindow(object):
         MainMenuWindow.setObjectName("MainMenuWindow")
         MainMenuWindow.resize(500, 400)
         MainMenuWindow.setFixedSize(500, 400)  # Fixed window size
-        MainMenuWindow.setWindowIcon(QtGui.QIcon("resources/main_icon.png"))
+        MainMenuWindow.setWindowIcon(QtGui.QIcon("resources/icons/main_icon.png"))
 
         # Central Widget
         self.centralwidget = QtWidgets.QWidget(MainMenuWindow)
@@ -52,11 +52,11 @@ class Ui_MainMenuWindow(object):
         self.dropCalculatorButton.setObjectName("dropCalculatorButton")
 
         # Icons :D
-        self.calculatorButton.setIcon(QtGui.QIcon("resources/calculator_icon.png"))
+        self.calculatorButton.setIcon(QtGui.QIcon("resources/icons/calculator_icon.png"))
         self.calculatorButton.setIconSize(QtCore.QSize(32, 32))
-        self.teamBuilderButton.setIcon(QtGui.QIcon("resources/team_builder_icon.png"))
+        self.teamBuilderButton.setIcon(QtGui.QIcon("resources/icons/team_builder_icon.png"))
         self.teamBuilderButton.setIconSize(QtCore.QSize(32, 32))
-        self.dropCalculatorButton.setIcon(QtGui.QIcon("resources/drop_calculator_icon.png"))
+        self.dropCalculatorButton.setIcon(QtGui.QIcon("resources/icons/drop_calculator_icon.png"))
         self.dropCalculatorButton.setIconSize(QtCore.QSize(32, 32))
 
         MainMenuWindow.setCentralWidget(self.centralwidget)

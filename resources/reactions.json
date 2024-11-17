@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Vaporize",
+    "elements": [
+      "Pyro",
+      "Hydro"
+    ],
+    "type_order": 1,
+    "damage_multiplier": 2.0,
+    "description": "Deals significant damage and is considered a top reaction in the game."
+  },
+  {
+    "name": "Melt",
+    "elements": [
+      "Pyro",
+      "Cryo"
+    ],
+    "type_order": 1,
+    "damage_multiplier": 1.8,
+    "description": "Freezing and pyrotechnic attacks are most effective against large bosses."
+  },
+  {
+    "name": "Swirl Pyro",
+    "elements": [
+      "Anemo",
+      "Pyro"
+    ],
+    "type_order": 2,
+    "damage_multiplier": 1.2,
+    "description": "Extends the Pyro damage zone."
+  },
+  {
+    "name": "Swirl Cryo",
+    "elements": [
+      "Anemo",
+      "Cryo"
+    ],
+    "type_order": 2,
+    "damage_multiplier": 1.2,
+    "description": "Extends the Cryo damage zone."
+  },
+  {
+    "name": "Swirl Electro",
+    "elements": [
+      "Anemo",
+      "Electro"
+    ],
+    "type_order": 2,
+    "damage_multiplier": 1.2,
+    "description": "Extends the Electro damage zone."
+  },
+  {
+    "name": "Swirl Hydro",
+    "elements": [
+      "Anemo",
+      "Hydro"
+    ],
+    "type_order": 2,
+    "damage_multiplier": 1.2,
+    "description": "Extends the Hydro damage zone."
+  },
+  {
+    "name": "Superconduct",
+    "elements": [
+      "Cryo",
+      "Electro"
+    ],
+    "type_order": 2,
+    "damage_multiplier": 1.5,
+    "description": "Effectively eliminates regular mobs and leaders."
+  },
+  {
+    "name": "Overload",
+    "elements": [
+      "Electro",
+      "Pyro"
+    ],
+    "type_order": 2,
+    "damage_multiplier": 1.3,
+    "description": "Acts on a large area, most effective against groups of enemies."
+  },
+  {
+    "name": "Crystallize Cryo",
+    "elements": [
+      "Geo",
+      "Cryo"
+    ],
+    "type_order": 3,
+    "damage_multiplier": 1.1,
+    "description": "Increases damage."
+  },
+  {
+    "name": "Crystallize Pyro",
+    "elements": [
+      "Geo",
+      "Pyro"
+    ],
+    "type_order": 3,
+    "damage_multiplier": 1.1,
+    "description": "Increases damage."
+  },
+  {
+    "name": "Crystallize Electro",
+    "elements": [
+      "Geo",
+      "Electro"
+    ],
+    "type_order": 3,
+    "damage_multiplier": 1.1,
+    "description": "Increases damage."
+  },
+  {
+    "name": "Crystallize Hydro",
+    "elements": [
+      "Geo",
+      "Hydro"
+    ],
+    "type_order": 3,
+    "damage_multiplier": 1.1,
+    "description": "Increases damage."
+  },
+  {
+    "name": "Freeze",
+    "elements": [
+      "Hydro",
+      "Cryo"
+    ],
+    "type_order": 1,
+    "damage_multiplier": 0.5,
+    "description": "Deals weak damage but freezes the enemy."
+  },
+  {
+    "name": "Electro-Charged",
+    "elements": [
+      "Electro",
+      "Hydro"
+    ],
+    "type_order": 2,
+    "damage_multiplier": 1.4,
+    "description": "Deals two additional Electro hits to nearby enemies."
+  },
+  {
+    "name": "Burning",
+    "elements": [
+      "Dendro",
+      "Pyro"
+    ],
+    "type_order": 2,
+    "damage_multiplier": 1.6,
+    "description": "Deals continuous Pyro damage over a certain period of time."
+  },
+  {
+    "name": "Aggravate",
+    "elements": [
+      "Dendro",
+      "Electro"
+    ],
+    "type_order": 3,
+    "damage_multiplier": 1.0,
+    "description": "Creates a special aura that increases damage."
+  },
+  {
+    "name": "Bloom",
+    "elements": [
+      "Dendro",
+      "Electro"
+    ],
+    "type_order": 3,
+    "damage_multiplier": 1.0,
+    "description": "Increases Electro damage."
+  },
+  {
+    "name": "Impel Down",
+    "elements": [
+      "Dendro",
+      "Electro"
+    ],
+    "type_order": 3,
+    "damage_multiplier": 1.0,
+    "description": "Increases Dendro damage."
+  },
+  {
+    "name": "Bud Formation",
+    "elements": [
+      "Dendro",
+      "Hydro"
+    ],
+    "type_order": 3,
+    "damage_multiplier": 1.0,
+    "description": "Creates Dendro cores (up to 5 simultaneously)."
+  },
+  {
+    "name": "Vegetation",
+    "elements": [
+      "Dendro",
+      "Hydro",
+      "Electro"
+    ],
+    "type_order": 3,
+    "damage_multiplier": 1.0,
+    "description": "Activates homing cores that deal area damage."
+  },
+  {
+    "name": "Bloom Burst",
+    "elements": [
+      "Dendro",
+      "Hydro",
+      "Pyro"
+    ],
+    "type_order": 3,
+    "damage_multiplier": 1.0,
+    "description": "Instantly activates cores that deal area damage."
+  }
+]

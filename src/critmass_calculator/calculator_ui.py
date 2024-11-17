@@ -8,7 +8,7 @@ class Ui_CalculatorWindow(object):
         CalculatorWindow.setObjectName("CalculatorWindow")
         CalculatorWindow.resize(400, 350)
         CalculatorWindow.setFixedSize(400, 350)  # Fixed window size
-        CalculatorWindow.setWindowIcon(QtGui.QIcon("resources/calculator_icon.png"))
+        CalculatorWindow.setWindowIcon(QtGui.QIcon("resources/icons/calculator_icon.png"))
 
         # Central Widget
         self.centralwidget = QtWidgets.QWidget(CalculatorWindow)
