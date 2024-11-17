@@ -45,5 +45,6 @@ class CalculatorWindow(QMainWindow, Ui_CalculatorWindow):
                                     "Critical Chance is over 100%, consider shifting towards Critical Damage.")
 
         # Check the ratio of Critical Chance to Critical Damage (1:2 for balance)
-        if abs(crit_chance - (crit_damage / 2)) > 15 or (crit_damage / 2 < 100 and crit_chance < 70):  # Allowable deviation
+        if abs(crit_chance - (crit_damage / 2)) > 15 or (
+                crit_damage / 2 < 100 and crit_chance < 70):  # Allowable deviation
             QMessageBox.information(self, "Information", "Optimal ratio of Critical Chance to Critical Damage is 1:2.")
