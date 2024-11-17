@@ -14,7 +14,7 @@ class MainMenu(QMainWindow, Ui_MainMenuWindow):
         self.calculatorButton.clicked.connect(self.open_calculator)
         self.teamBuilderButton.clicked.connect(self.open_team_builder)
         self.dropCalculatorButton.clicked.connect(self.open_drop_calculator)
-        # TODO: Connect artifact analyzer when implemented
+        # TODO: Connect artefact analyzer when implemented
 
     def open_calculator(self):
         self.calculator = CalculatorWindow()
