@@ -33,17 +33,17 @@ class MainMenu(QMainWindow, Ui_MainMenuWindow):
 
     # Info button slots
     def show_calculator_info(self):
-        QMessageBox.information(self, "Critical Mass Calculator",
+        QMessageBox.information(self, "Info",
                                 "Calculate the critical mass of your character's artifacts.\n"
                                 "Input your current artifact crit stats to see calculated crit mass and evaluation.")
 
     def show_team_builder_info(self):
-        QMessageBox.information(self, "Team Builder",
+        QMessageBox.information(self, "Info",
                                 "Build potentially perfect teams from your available characters.\n"
-                                "Choose your team from available character's on account and see potential damage.")
+                                "Choose your team from available character's and see real potential damage.")
 
     def show_drop_calculator_info(self):
-        QMessageBox.information(self, "Artifact Analyzer",
+        QMessageBox.information(self, "Info",
                                 "Calculate the chance of obtaining an artifact with preferred sub-stats.\n"
                                 "Select your artifact rare and wanted sub-stats to see chances on perfect artifact.")
 

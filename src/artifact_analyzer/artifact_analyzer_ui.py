@@ -76,7 +76,9 @@ class Ui_ArtifactAnalyzerWindow(object):
 
     def retranslateUi(self, ArtifactAnalyzerWindow):
         _translate = QtCore.QCoreApplication.translate
-        ArtifactAnalyzerWindow.setWindowTitle(_translate("ArtifactAnalyzerWindow", "Artifact Analyzer"))
+        ArtifactAnalyzerWindow.setWindowTitle(_translate
+                                              ("ArtifactAnalyzerWindow",
+                                               "ArteFactor - Artifact Analyzer"))
 
     def applyStyles(self):
         style = """

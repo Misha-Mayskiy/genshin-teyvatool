@@ -26,7 +26,7 @@ class ArtifactAnalyzerWindow(QMainWindow, Ui_ArtifactAnalyzerWindow):
         # Calculate Probability
         probability = self.computeArtifactProbability(rarity_value, preferred_substats)
         result_text = f"The probability of obtaining an artifact with your preferred substats is:\n" \
-                      f"<b>{probability:.6f}%</b>"
+                      f"{probability:.5f}%"
         self.resultLabel.setText(result_text)
 
     def computeArtifactProbability(self, rarity, preferred_substats):
@@ -75,10 +75,3 @@ class ArtifactAnalyzerWindow(QMainWindow, Ui_ArtifactAnalyzerWindow):
             total_probability += total_prob
 
         return total_probability
-
-
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    window = ArtifactAnalyzerWindow()
-    window.show()
-    sys.exit(app.exec_())
