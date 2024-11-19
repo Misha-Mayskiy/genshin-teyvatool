@@ -1,9 +1,8 @@
-# main.py
-
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox
+from PyQt5.QtWidgets import QApplication, QMainWindow
 from critmass_calculator.calculator_window import CalculatorWindow
-from team_builder.team_builder_window import TeamBuilderWindow  # Import TeamBuilderWindow
+from team_builder.team_builder_window import TeamBuilderWindow
+from artifact_analyzer.artifact_analyzer_window import ArtifactAnalyzerWindow
 from main_menu_ui import Ui_MainMenuWindow
 
 
@@ -14,7 +13,6 @@ class MainMenu(QMainWindow, Ui_MainMenuWindow):
         self.calculatorButton.clicked.connect(self.open_calculator)
         self.teamBuilderButton.clicked.connect(self.open_team_builder)
         self.dropCalculatorButton.clicked.connect(self.open_drop_calculator)
-        # TODO: Connect artefact analyzer when implemented
 
     def open_calculator(self):
         self.calculator = CalculatorWindow()
@@ -25,10 +23,8 @@ class MainMenu(QMainWindow, Ui_MainMenuWindow):
         self.team_builder.show()
 
     def open_drop_calculator(self):
-        # Placeholder for Artifact Drop Calculator Window
-        # self.drop_calculator = DropCalculatorWindow()
-        # self.drop_calculator.show()
-        QMessageBox.information(self, "Coming Soon", "Artifact Drop Calculator module is not yet implemented.")
+        self.artifact_analyzer = ArtifactAnalyzerWindow()
+        self.artifact_analyzer.show()
 
 
 if __name__ == "__main__":
