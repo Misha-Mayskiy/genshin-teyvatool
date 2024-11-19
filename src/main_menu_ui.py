@@ -92,6 +92,9 @@ class Ui_MainMenuWindow(object):
         self.calculatorButton.setText(_translate("MainMenuWindow", "Critical Mass Calculator"))
         self.teamBuilderButton.setText(_translate("MainMenuWindow", "Team Builder"))
         self.dropCalculatorButton.setText(_translate("MainMenuWindow", "Artifact Analyzer"))
+        self.calculatorInfoButton.setText(_translate("MainMenuWindow", "INFO"))
+        self.dropCalculatorInfoButton.setText(_translate("MainMenuWindow", "INFO"))
+        self.teamBuilderInfoButton.setText(_translate("MainMenuWindow", "INFO"))
 
     def applyStyles(self):
         style = """
